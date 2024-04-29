@@ -1,0 +1,219 @@
+/* styles.css */
+
+/* Banner styles */
+.jumbotron {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 40px; /* Padding inside the jumbotron */
+    text-align: center; /* Center-align text */
+}
+
+.jumbotron h2 {
+    font-size: 36px; /* Large font size for heading */
+    font-weight: bold; /* Bold text for heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.jumbotron h3 {
+    font-size: 28px; /* Medium font size for subheading */
+    font-weight: bold; /* Bold text for subheading */
+    margin-bottom: 20px; /* Space below subheading */
+}
+
+.jumbotron p {
+    font-size: 18px; /* Regular font size for paragraph */
+    margin-bottom: 30px; /* Space below paragraph */
+}
+
+/* Button styles */
+.btn-outline-light {
+    color: #fff; /* White text color */
+    border-color: #fff; /* White border color */
+    margin-right: 10px; /* Space between buttons */
+}
+
+.btn-outline-light:hover {
+    background-color: #fff; /* White background on hover */
+    color: #007bff; /* Blue text color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 30px; /* Reduced padding on smaller screens */
+    }
+    .jumbotron h2 {
+        font-size: 24px; /* Adjusted font size for smaller screens */
+    }
+    .jumbotron h3 {
+        font-size: 20px; /* Adjusted font size for smaller screens */
+    }
+    .jumbotron p {
+        font-size: 16px; /* Adjusted font size for smaller screens */
+    }
+}
+
+/* Apply padding to the Register button */
+a.btn.btn-primary {
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+/* styles.css */
+
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.card {
+    max-width: 400px;
+    margin: auto;
+    border: none; /* Remove default card border */
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-check-label {
+    margin-right: 20px; /* Add space between radio button labels */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color for buttons */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    border-color: #0056b3;
+}
+
+.primary-background{
+    background: #bbdefb!important;
+}
+
+/* Error page styling */
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh; /* Full viewport height */
+}
+
+.error-image {
+    max-width: 80%; /* Limit image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add space below image */
+}
+
+.error-message {
+    font-size: 1.5rem; /* Large font size */
+    margin-bottom: 20px; /* Add space below message */
+}
+
+.custom-home-btn {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* Text color */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px; /* Padding around button text */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+.custom-home-btn:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Custom styles for cards */
+.post-card {
+    min-height: 400px; /* Minimum height for each card */
+    max-height: 400px; /* Maximum height for each card */
+    overflow: hidden; /* Hide overflow content */
+    border: 1px solid #ddd; /* Border for the card */
+    border-radius: 8px; /* Rounded corners */
+    transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+}
+
+.post-card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow on hover */
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for the card image */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    border-radius: 8px 8px 0 0; /* Rounded corners for the top */
+}
+
+.post-card-body {
+    height: 250px; /* Fixed height for the card body */
+    overflow: hidden; /* Hide overflow content */
+    padding: 10px; /* Padding inside the card body */
+}
+
+.card-footer {
+    /* Style for card footer */
+    height: 70px; /* Fixed height for card footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ddd; /* Optional: Add border at top */
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.card-footer a {
+    /* Style for Read More button */
+    text-decoration: none;
+    /*color: #007bff; /* Blue color */
+}
+
+/* Custom styles for buttons */
+.btn-custom {
+    display: inline-flex;
+    align-items: center; /* Align content vertically */
+    justify-content: center; /* Align content horizontally */
+    height: 40px; /* Set a fixed height for buttons */
+    padding: 0 12px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size */
+    text-decoration: none !important; /* Remove underline */
+    margin-right: 10px;
+}
+
+.btn-custom i {
+    margin-right: 5px; /* Add space between icon and text */
+}
+
+/* Apply styles to specific buttons */
+.btn-read-more {
+    background-color: #007bff !important; /* Blue background for "Read More" button */
+    color: #fff !important; /* White text color */
+    border-color: #007bff !important; /* Blue border color */
+}
+
+.btn-read-more:hover {
+    background-color: #0056b3 !important; /* Darker blue on hover */
+    border-color: #0056b3 !important; /* Darker border on hover */
+}
+
+.btn-like {
+    background-color: #28a745 !important; /* Green background for "Like" button */
+    color: #fff !important; /* White text color */
+    border-color: #28a745 !important; /* Green border color */
+}
+
+.btn-like:hover {
+    background-color: #218838 !important; /* Darker green on hover */
+    border-color: #218838 !important; /* Darker border on hover */
+}
+/* Custom styles for the <pre> tag */
+.code-block {
+    background-color: #f8f9fa; /* Light gray background color */
+    padding: 10px; /* Padding inside the <pre> tag */
+    border-radius: 5px; /* Rounded corners */
+    overflow-x: auto; /* Enable horizontal scrolling for long code blocks */
+    white-space: pre-wrap; /* Preserve line breaks and spaces */
+    font-family: monospace; /* Use a monospace font for code */
+}
